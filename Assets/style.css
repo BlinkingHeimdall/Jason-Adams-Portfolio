@@ -12,42 +12,87 @@
 
 body {
     background-color: var(--primary-color);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:sans-serif;
+    font-weight: 100;
     color: var(--tertiary-color);
 }
 
 header{
     margin: 0;
     background-color: var(--secondary-color) ;
+    color: var(--tertiary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
 }
 
 header h1 {
-    font-size: 42;
+    font-size: 42px;
+    padding-left: 20px;
+    padding-top: 25px;
+
 }
 
-header nav {
-
+header nav { 
+    align-items: center;
+    margin: 35px 10px;
 }
 
 header nav ul {
-
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
 }
 
 header nav ul li {
-
+    text-align: center;
+    margin: 0 auto 5px auto;
 }
 
 header nav ul li a {
-
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 5px 20px;
+    border-bottom: 5px solid;
+    border-color: var(--tertiary-color);
 }
 
 header a {
-
+    color: var(--tertiary-color);
 }
 
 .hero {
     background-image: url("../Assets/Hero.jpg");
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 600px;
+    display: flex;
+}
+
+.hero article {
+    float: right;
+    color: white;
+    background-color: var(--tertiary-color);
+    height: 150px;
+    width: 1130px;
+    padding-right: 35px;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.hero article p {
+    float: right;
+    background-color: var(--tertiary-color);
+    color: white;
+}
+
+.hero img {
+    height: 560px;
+    width: 560px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 30px;
 }
