@@ -72,18 +72,17 @@ header a {
     display: flex;
 }
 
-.hero article {
+.hero div {
     float: right;
     color: white;
     background-color: var(--tertiary-color);
     height: 150px;
     width: 1130px;
-    padding-right: 35px;
-    padding-top: 40px;
-    padding-left: 35px;
+    padding: 35px;
+    margin: 225px 30px 10px 30px;
 }
 
-.hero article p {
+.hero div p {
     float: right;
     background-color: var(--tertiary-color);
     color: white;
