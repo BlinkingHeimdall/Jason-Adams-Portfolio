@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #99bbff;
+    --secondary-color: #51d6c7;
+    --tertiary-color: #512c8a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--tertiary-color);
+}
+
+header{
+    margin: 0;
+    background-color: var(--secondary-color) ;
+}
+
+header h1 {
+    font-size: 42;
+}
+
+header nav {
+
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+
+}
+
+header nav ul li a {
+
+}
+
+header a {
+
+}
+
+.hero {
+    background-image: url("../Assets/Hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
