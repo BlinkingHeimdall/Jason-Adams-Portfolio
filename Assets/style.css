@@ -67,9 +67,9 @@ header a {
     background-image: url("../Assets/Hero.jpg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: auto;
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
 }
 
 .hero div {
@@ -96,7 +96,7 @@ header a {
     padding-left: 30px;
     padding-bottom: 20px;
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
 }
 
 .sample-work {
@@ -106,21 +106,28 @@ header a {
     font-size: 42px;
 }
 
-.projects {
+.flex-container {
  display: flex;
- flex: wrap;
- justify-content: space-around;
+ flex-wrap: wrap;
+ justify-content: center;
 }
 
-.work {
+.flex-item {
     border: 3px solid var(--tertiary-color);
     margin: 15px 15px 15px 15px;
+    display: flex;
+    align-items: flex-end;
 }
 
-.work img {
-    color: var(--tertiary-color);
-    width: 350px;
+.flex-item img:hover {
     height: 350px;
+    width: 350px;
+}
+
+.flex-item img {
+    color: var(--tertiary-color);
+    width: 250px;
+    height: 250px;
 }
 
 .contact {
